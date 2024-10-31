@@ -2,6 +2,7 @@ let canvas = document.querySelector("canvas");
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 let mousedown = false;
+const socket = io.connect("https://sketchspacebysaquib.netlify.app");
 
 let pencilColors = document.querySelectorAll(".pencil-color");
 let pencilWidthElem = document.querySelector(".pencil-width");
