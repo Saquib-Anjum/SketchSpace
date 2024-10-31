@@ -2,7 +2,7 @@
 
 Welcome to **SketchSpace**! This interactive, real-time drawing canvas app lets you collaborate with others or work solo on your sketches, with all the essential tools like pencil, eraser, undo, redo, and even sticky notes. Perfect for brainstorming, ideation, and fun sketches!
 
-![SketchSpace Logo or Screenshot Placeholder](https://via.placeholder.com/800x400?text=SketchSpace)
+![SketchSpace Logo or Screenshot Placeholder](https://github.com/Saquib-Anjum/SketchSpace/blob/main/public/Icons/Screenshot%202024-10-31%20191818.png)
 
 ---
 
@@ -31,6 +31,13 @@ Welcome to **SketchSpace**! This interactive, real-time drawing canvas app lets 
 - **Canvas API:** For drawing graphics and manipulating images on the web.
 - **File API:** For uploading images to the canvas.
 
+
+## ✨ Usage
+- Draw: Select the pencil tool to start drawing on the canvas.
+- Eraser: Choose the eraser to remove unwanted lines.
+- Undo/Redo: Navigate through your actions.
+- Sticky Notes: Add notes or images by clicking on the sticky icon.
+- Download: Save your canvas by clicking the download icon.
 ---
 
 ## 🚀 Getting Started
