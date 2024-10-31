@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SketchSpace</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="option-cont">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+    <div class="tool-cont scale-tool">
+        <img class="image-icon pencil" src="Icons/Pencil2.svg" alt="">
+        <img class="image-icon eraser" src="Icons/Eraser3.svg" alt="">
+        <img class="image-icon download" src="Icons/Download3.svg" alt="">
+        <img class="image-icon upload" src="Icons/Upload1.svg" alt="">
+        <img class="image-icon sticky" src="Icons/StickyNotes2.svg" alt="">
+        <img class="image-icon redo" src="Icons/Redo3.svg" alt="">
+        <img class="image-icon undo" src="Icons/Undo3.svg" alt="">
+
+    </div>
+    <div class="pencil-tool-cont">
+        <div class="pencil-width-cont">
+            <input type="range" min="2" max="10" value="3" class="pencil-width">
+        </div>
+        <div class="pencil-color-cont">
+            <div class="black pencil-color"></div>
+            <div class="red pencil-color"></div>
+            <div class="blue pencil-color"></div>
+        </div>        
+    </div>
+    <div class="eraser-tool-cont">
+        <input type="range" min="2" max="15" value="3" class="eraser-width">
+    </div>
+
+    <canvas></canvas>
+    <script src="https://cdn.socket.io/3.1.3/socket.io.min.js" integrity="sha384-cPwlPLvBTa3sKAgddT6krw0cJat7egBga3DJepJyrLl4Q9/5WLra3rrnMcyTyOnh" crossorigin="anonymous"></script>
+    <script>
+        let socket = io.connect("http://localhost:3000")
+    </script>
+    <script src="./tools.js"></script>
+    <script src="./canvas.js"></script>
+   
+</body>
+</html>
